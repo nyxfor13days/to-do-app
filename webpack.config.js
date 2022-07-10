@@ -27,9 +27,6 @@ module.exports = {
 		static: {
 			directory: path.join(__dirname, '/dist'),
 		},
-		cache: {
-			type: 'memory',
-		},
 	},
 	resolve: {
 		extensions: ['.tsx', '.ts', '.js'],
